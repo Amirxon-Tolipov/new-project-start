@@ -1,0 +1,175 @@
+//  Hero start
+.site__hero {
+    background-color: rgba(243, 254, 255, 1);
+    background-image: url("../../images/background-stars.svg");
+    background-repeat: no-repeat;
+    background-position: 80%;
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title__box {
+    width: 553px;
+}
+
+.hero__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 125%;
+}
+
+.hero__title__style {
+    color: rgba(53, 175, 191, 1);
+}
+
+.hero__desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 160%;
+    color: rgba(112, 114, 115, 1);
+}
+
+.hero__btn__box {
+    margin-top: 30px;
+}
+
+.hero__btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+    background-color: rgba(53, 175, 191, 1);
+    color: rgb(255, 255, 255);
+}
+
+.hero__btn:hover {
+    background-color: rgba(243, 254, 255, 1);
+    color: rgba(53, 175, 191, 1);
+    border: 1px solid;
+    transition: all 0.3s linear;
+}
+
+.hero__btn:active {
+    background-color: rgba(53, 175, 191, 1);
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+// Hero end
+
+// Intro start
+.intro__title__box {
+    margin-top: 120px;
+    margin-left: 376px;
+}
+
+.intro__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.intro__desc {
+    width: 509px;
+    margin-left: -30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(112, 114, 115, 1);
+}
+
+.intro__box__wrapper {
+    width: 261px;
+    margin-top: 60px;
+    background-color: rgba(243, 254, 255, 1);
+    border-radius: 10px;
+    border: 1px solid rgb(163, 224, 232);
+}
+
+.intro__box__image {
+    margin-left: 89px;
+    padding-top: 10px;
+}
+
+.second__intro__title {
+    margin-top: 20px;
+    margin-left: 71px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 150%;
+}
+
+.second__intro__desc {
+    width: 217px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 22px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(112, 114, 115, 1);
+}
+
+.intro__box__main__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+// Intro end
+
+// Second hero start
+
+.second__hero__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.third__hero__inner {
+    display: flex;
+}
+.second__hero__inner{
+    width: 449px;
+}
+.second__hero__desc{
+    color: rgba(112, 114, 115, 1);
+}
+.second__hero__btn__box{
+    margin-top: 40px;
+}
+.second__hero__btn{
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(53, 175, 191, 1);
+}
+.second__hero__btn:hover{
+    background-color: rgba(53, 175, 191, 1);
+    color: rgb(255, 255, 255);
+    
+    transition: all 0.3s linear;
+}
+.second__hero__btn:active{
+    background-color: rgba(53, 175, 191, 1);
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.second__hero__main__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 154px;
+}
